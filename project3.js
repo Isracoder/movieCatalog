@@ -29,7 +29,7 @@ readFile() ;
 //     //console.log(obj.length) ;
 //     obj.forEach(async(elem) => {  
 //         //console.log(elem.imdbID) ; 
-//         let response = await fetch(`http://www.omdbapi.com/?i=${elem.imdbID}&apikey=503bd9bc`);
+//         let response = await fetch(`http://www.omdbapi.com/?i=${elem.imdbID}&apikey=${secretKey}`);
 //         let res = await response.json() ;
         
 //         elem = res ;
